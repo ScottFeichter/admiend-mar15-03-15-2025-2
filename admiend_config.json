@@ -1,1 +1,49 @@
-{}
+{
+  "ADMIEND_REPO_NAME": "admiend-mar15-03-15-2025-2",
+  "FRONTEND_REPO_NAME": "frontend-mar15-03-15-2025-2",
+  "BACKEND_REPO_NAME": "backend-mar15-03-15-2025-2",
+  "CREATE_DATE": "03-15-2025",
+  "REPO_VERSION": "2",
+  "amplify": {
+    "app_id": "di44aqayaj041",
+    "app_url": "https://di44aqayaj041.amplifyapp.com"
+  },
+  "s3": {
+    "bucket_name": "admiend-mar15-03-15-2025-2-20250315202054-91ec6370",
+    "region": ""
+  },
+  "ec2": {
+    "instance_id": "i-007cb0c03e878add8",
+    "public_ip": "",
+    "private_ip": ""
+  },
+  "ebs": {
+    "volume_id": "vol-0f9e16408d81b904d",
+    "volume_size": "30",
+    "volume_type": "gp3",
+    "device_name": "/dev/xvdf",
+    "iops": "3000",
+    "throughput": "125",
+    "availability_zone": "us-east-1a",
+    "attached_instance": "i-007cb0c03e878add8"
+  },
+  "vpc": {
+    "vpc_id": "vpc-072354bc3bca02060",
+    "subnet_ids": "",
+    "security_group_id": "",
+    "subnet_group_name": "mar15-03-15-2025-2-db-subnet-group"
+  },
+  "rds": {
+    "db_identifier": "mar15-03-15-2025-2-postgres-db",
+    "endpoint": "",
+    "database_name": "",
+    "port": ""
+  },
+  "postgres": {
+    "db_name": "backend_mar15_03_15_2025_2_db_postgres",
+    "db_user": "postgres",
+    "db_port": "5432",
+    "db_host": "localhost",
+    "test_db_name": "backend_test_mar15_03_15_2025_2_db_postgres"
+  }
+}
